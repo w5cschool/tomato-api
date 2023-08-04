@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: mall-tiny
+    name: tomato
   profiles:
     active: dev
 #  main:
@@ -28,10 +28,11 @@ jwt:
   tokenHead: 'Bearer '  #JWT负载中拿到开头
 
 redis:
-  database: mall
+  database: tomato
   key:
-    admin: 'ums:admin'
-    resourceList: 'ums:resourceList'
+    admin: 'admin'
+    openid: 'opendid'
+    resourceList: 'resourceList'
   expire:
     common: 86400 # 24小时
 
@@ -52,3 +53,4 @@ secure:
       - /admin/register
       - /admin/info
       - /admin/logout
+      - /mini/login
