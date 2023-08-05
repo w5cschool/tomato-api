@@ -20,7 +20,7 @@ public class LoginServiceImpl implements LoginService {
 
 
     private final String appId = "wxdba73c014e615783";
-    private final String appSecret = "908446a7c06baeaba5685ea5d2aa4ecf";
+    private final String appSecret = "123";
 
     private static final Logger logger = LoggerFactory.getLogger(LoginServiceImpl.class);
 
